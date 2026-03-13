@@ -36,6 +36,20 @@ What migration patterns are shaping population growth in the Coeur d'Alene and S
 - Explore **potential drivers of migration**, such as housing conditions, employment opportunities, and regional amenities.
 - Compare migration dynamics between the **Coeur d'Alene and Spokane areas** to identify similarities and differences in regional population change.
 
+## Data
+
+This project uses publicly available demographic and migration data from the U.S. Census Bureau. The analysis is conducted at the **census tract** level, a geographic unit designed by the Census Bureau to represent relatively stable neighborhood-sized populations for statistical analysis.
+
+The dataset contains **169 census tracts** covering the Coeur d'Alene (Idaho) and Spokane (Washington) regions, with **variables** describing spatial migration patterns and demographic characteristics.
+
+## Tools and Technologies
+
+- **Python** – data processing and analysis
+- **Pandas** – data manipulation and transformation
+- **Matplotlib** – data visualization
+- **GWR** – spatial analysis of migration patterns
+- **ArcGIS** – spatial regression analysis and map making
+
 
 ## Project Structure
 
