@@ -42,6 +42,9 @@ This project uses publicly available demographic and migration data from the U.S
 
 The dataset contains **169 census tracts** covering the Coeur d'Alene (Idaho) and Spokane (Washington) regions, with **variables** describing spatial migration patterns and demographic characteristics.
 
+Note: Raw datasets are not stored in this repository due to file size.
+They can be downloaded from the original public data source.
+
 ## Tools and Technologies
 
 - **Python** – data processing and analysis
