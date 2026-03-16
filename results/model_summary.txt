@@ -1,0 +1,31 @@
+                                 OLS Regression Results                                
+=======================================================================================
+Dep. Variable:         pct_diff_state   R-squared (uncentered):                   0.688
+Model:                            OLS   Adj. R-squared (uncentered):              0.674
+Method:                 Least Squares   F-statistic:                              50.95
+Date:                Sun, 27 Apr 2025   Prob (F-statistic):                    8.71e-38
+Time:                        19:47:32   Log-Likelihood:                         -435.86
+No. Observations:                 169   AIC:                                      885.7
+Df Residuals:                     162   BIC:                                      907.6
+Df Model:                           7                                                  
+Covariance Type:            nonrobust                                                  
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+pct_age2024            0.2199      0.050      4.427      0.000       0.122       0.318
+pct_houseValue500k     0.1573      0.021      7.632      0.000       0.117       0.198
+gross_rent_median      0.2934      0.070      4.201      0.000       0.155       0.431
+pct_bachelor          -0.1245      0.036     -3.493      0.001      -0.195      -0.054
+pct_age2534            0.1227      0.039      3.166      0.002       0.046       0.199
+pct_age4554           -0.1438      0.057     -2.539      0.012      -0.256      -0.032
+pct_foreign_born      -0.0965      0.069     -1.395      0.165      -0.233       0.040
+==============================================================================
+Omnibus:                       31.076   Durbin-Watson:                   1.787
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               51.123
+Skew:                           0.938   Prob(JB):                     7.92e-12
+Kurtosis:                       4.934   Cond. No.                         10.8
+==============================================================================
+
+Notes:
+[1] R² is computed without centering (uncentered) since the model does not contain a constant.
+[2] Standard Errors assume that the covariance matrix of the errors is correctly specified.
