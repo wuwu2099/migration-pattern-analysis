@@ -1,0 +1,13 @@
+prefix=d:/Wu/2026/Project Portfolio/migration-pattern-analysis/.conda/Library
+exec_prefix=d:/Wu/2026/Project Portfolio/migration-pattern-analysis/.conda/Library
+libdir=d:/Wu/2026/Project Portfolio/migration-pattern-analysis/.conda/Library/lib
+sharedlibdir=d:/Wu/2026/Project Portfolio/migration-pattern-analysis/.conda/Library/lib
+includedir=d:/Wu/2026/Project Portfolio/migration-pattern-analysis/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

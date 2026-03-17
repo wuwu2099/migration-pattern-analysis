@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Read the data
-df = pd.read_csv('DP02.csv')
+df = pd.read_csv('../data/raw/DP02.csv')
 print(df.shape)  
 
 # Keep only marked columns
