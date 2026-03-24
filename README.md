@@ -67,3 +67,12 @@ migration-analysis-coeurdalene-spokane/
 ├── results/          # Analysis outputs: tables, maps, and images  
 
 └── README.md         # Project overview and instructions
+
+
+## results
+I selected variables based on their relationship with migration patterns,
+while controlling for multicollinearity and ensuring representation of key demographic dimensions.
+
+Out-of-state migration is associated with housing affordability,
+education levels, and housing structure, with noticeable differences
+between CDA and Spokane regions.
